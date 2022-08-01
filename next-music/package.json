@@ -1,0 +1,21 @@
+{
+  "name": "next-music",
+  "version": "0.0.57",
+  "scripts": {
+    "dev:node": "PORT=3001 next dev"
+  },
+  "dependencies": {
+    "@types/node": "^18.6.3",
+    "next": "12.1.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-is": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.1",
+    "bun-framework-next": "^12",
+    "typescript": "latest",
+    "react-refresh": "0.10.0"
+  },
+  "module": "index.js"
+}

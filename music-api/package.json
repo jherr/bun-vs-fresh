@@ -1,0 +1,16 @@
+{
+  "name": "jmusic-engine",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "tsc",
+    "build:cache": "ts-node src/build-cache.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.2",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "ts-node": "^9.1.1"
+  }
+}

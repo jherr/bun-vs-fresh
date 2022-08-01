@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2017", "DOM"],
+    "target": "es5",
+    "module": "CommonJS",
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
